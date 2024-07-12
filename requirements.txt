@@ -1,0 +1,21 @@
+# DO NOT include azure-functions-worker in this file
+# The Python Worker is managed by Azure Functions platform
+# Manually managing azure-functions-worker may cause unexpected issues
+
+azure-functions
+azure-functions-durable
+aiohttp
+azure-identity
+azure-mgmt-core
+azure-mgmt-monitor
+azure-mgmt-netapp
+azure-mgmt-resourcegraph
+azure-mgmt-subscription
+prometheus-client
+msrestazure
+azure-data-tables
+azure-mgmt-resource
+azure-storage-blob
+azure-mgmt-appcontainers
+pytz
+requests
